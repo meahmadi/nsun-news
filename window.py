@@ -3,14 +3,37 @@ from PySide.QtGui import *
 from PySide.QtWebKit import *
 
 import webserver
+import feedcrawl
+import db
 
 class Window(QWidget):
 	def __init__(self):
 		QWidget.__init__(self)
+
+		self.db = db.DB()
+		self.db.init_dbs()
+		self.db.init_schemas()
+		
+		feeds = self.db.get_feeds()
+		if len(feeds)==0:
+			rsss = open('rss.txt')
+			site_name = ""
+			for rss in rsss:
+				if rss.startswith("\t"):
+					rss = rss.strip()
+					url = rss[rss.find(":")+1:]
+					name = site_name+"-"+rss[:rss.find(":")]
+					self.db.save_feed(name,url,"")
+				else:
+					rss = rss.strip()
+					site_name = rss[:rss.find(":")]
 		
 		self.server = webserver.WebServer(self)
 		self.server.start()
-	
+		
+		self.crawler = feedcrawl.Crawler(self)
+		self.crawler.start()
+			
 		self.icon = QIcon(':/images/icon.png')
 	
 		self.setLayout(QVBoxLayout())

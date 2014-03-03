@@ -1,0 +1,60 @@
+tnews:http://tnews.ir/Rss
+	last:http://tnews.ir/RSS/%D8%A2%D8%AE%D8%B1%DB%8C%D9%86-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1
+	hot:http://tnews.ir/RSS/%D9%85%D9%88%D8%AC-%D8%AE%D8%A8%D8%B1%DB%8C
+fars news:http://farsnews.com/rsslinks.php
+	all:http://farsnews.com/rss.php
+	sia30:http://farsnews.com/rss.php?srv=1
+	eco:http://farsnews.com/rss.php?srv=2
+	soc:http://farsnews.com/rss.php?srv=3
+	sport:http://farsnews.com/rss.php?srv=4
+	intl:http://farsnews.com/rss.php?srv=6
+	farhang:http://farsnews.com/rss.php?srv=7
+	pix:http://farsnews.com/rss.php?srv=8
+youg cloub:http://www.yjc.ir/fa/rss
+	all:http://www.yjc.ir/fa/rss/allnews
+	first:http://www.yjc.ir/fa/rss/1
+	sia30:http://www.yjc.ir/fa/rss/3
+	farhangi:http://www.yjc.ir/fa/rss/4
+	soci:http://www.yjc.ir/fa/rss/5
+	eco:http://www.yjc.ir/fa/rss/6
+	scien:http://www.yjc.ir/fa/rss/7
+	spor:http://www.yjc.ir/fa/rss/8
+	intl:http://www.yjc.ir/fa/rss/9
+	web:http://www.yjc.ir/fa/rss/10
+	media:http://www.yjc.ir/fa/rss/11
+	pix:http://www.yjc.ir/fa/rss/2
+khabaronline:
+	sia30:http://khabaronline.ir/rss/service/Politics
+	eco:http://khabaronline.ir/rss/service/Economy
+	farhang:http://khabaronline.ir/rss/service/culture
+	socia:http://khabaronline.ir/rss/service/society
+	intel:http://khabaronline.ir/rss/service/World
+	sport:http://khabaronline.ir/rss/service/sport
+	science:http://khabaronline.ir/rss/service/science
+	it:http://khabaronline.ir/rss/service/ict
+isna:http://isna.ir/page/news-feed.xhtml?lang=fa
+	all:http://isna.ir/fa/all/feed
+	main:http://isna.ir/fa/mainPage/feed
+	scie:http://isna.ir/fa/Science%20and%20Tech/feed
+	soci:http://isna.ir/fa/Social/feed
+	uni:http://isna.ir/fa/University/feed
+	eco:http://isna.ir/fa/Economy/feed
+	sia30:http://isna.ir/fa/Politics/feed
+	intl:http://isna.ir/fa/World/feed
+	farhngi:http://isna.ir/fa/Culture%20and%20Art/feed
+	maref:http://isna.ir/fa/18/feed
+	sport:http://isna.ir/fa/Sports/feed
+	pix:http://isna.ir/fa/photo/feed
+irna:http://irna.ir/fa/rssfeed.aspx
+	all:http://irna.ir/fa/rss.aspx?kind=-1
+	sia30:http://irna.ir/fa/rss.aspx?kind=5
+	eco:http://irna.ir/fa/rss.aspx?kind=20
+	socia:http://irna.ir/fa/rss.aspx?kind=32
+	farhangi:http://irna.ir/fa/rss.aspx?kind=41
+	scien:http://irna.ir/fa/rss.aspx?kind=180
+	sport:http://irna.ir/fa/rss.aspx?kind=14
+	intl:http://irna.ir/fa/rss.aspx?kind=1
+	pix:http://irna.ir/fa/rss.aspx?kind=51
+	
+	
+	
